@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+
+<div id="menu">
+<li><a href="#about">About Me</a></li>
+<li><a href="#photos">My Photos</a></li>
+<li><a href="#playlist">My Playlist</a></li>
+<li><a href="#like">Like</a></li>
+<li><a href="#qrcoder">QR code</a></li>
+<li><a href="#spa">Q&A</a></li>
+<li><a href="#contact">Contact Me</a></li>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section id="about" class="section">
+  <h1>About Me</h1>
+  <p>
+    Hello Everyone! My name is Pikachu. In this section you can pick-a-me.
+    I was adopted by Ash Ketchum back in Palls. Realizing that I am way much 
+    smarter then some 10 years old I decided to leave him and go start my own
+    web-tech company, and this is what my site is all about - so welcome,
+    have fun, and please do not try to put me inside a pokeball, as I would not like that!
+  
+  </p>
+  <br>
+  <h4>My Hobbies</h4>
+  <P>Sleeping - it is all about sleeping. I guesss that sometimes eating is just as good,
+    but lets keep it simple - sleeping.
+  </P>
+
+  <br>
+  <h4>What's your favorite thing in ISE?</h4>
+  <P>Sleeping.
+  </P>
+
+  <br>
+  <h4>What are your expectations from this course?</h4>
+  <P>I want to learn how to make the best website and be the best trainer, oops, 
+    I meant web developer out there... and catch them all!!!!  
+  </P>
+
+  <br>
+  <h4>What are the difficulties you find while working on this project?</h4>
+  <P>Nothing is difficult when you can electrifie people, seriously. 
+  </P>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="photos" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h1>my photos</h1>
+    <h4>Here are some of my photos</h4> 
+    <br />
+    <img src="pic_3.jpg" width="200" height="200"/>
+    <p>This is me</p>
+    <br /> <br /><br />
+    <img src="pic_2.jpg"  width="200" height="200"/>
+    <p>When I let my mom cut my hair</p>
+    <br /> <br /><br />
+    <img src="pic_5.png" width="200" height="200" />
+    <p>Young me</p>
+    <br /> <br /><br />
+    <img src="pic_6.jpg" width="200" height="200" />
+    <p>I don't like Ash</p>
+    <br /> <br /><br />
+    <img src="pic_7.jpg" width="200" height="200" />
+    <p>I don't like him at all</p>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="playlist" class="section">
+    <h1>My Favorite Playlist</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLxFyf9PFwQ3wvsuG01PFnkAivTOmLD8Rf" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="like" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+give me a like
+<br/>
+    <div class="fb-like" data-href="https://www.facebook.com/PikachuNumber25/" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+<br/>
+</section>
+
+<section id="qrcoder" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+scan my code
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="spa" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+ans
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="contact" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+contact me
+<br/>
+<br/>
+<br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
