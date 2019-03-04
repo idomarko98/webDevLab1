@@ -1,248 +1,349 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <div id="fb-root"></div>
-    <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
-
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<section id="about" class="section">
-  <h1>About Me</h1>
-  <p>
-    Hello Everyone! My name is Pikachu. In this section you can pick-a-me.
-    I was adopted by Ash Ketchum back in Palls. Realizing that I am way much 
-    smarter then some 10 years old I decided to leave him and go start my own
-    web-tech company, and this is what my site is all about - so welcome,
-    have fun, and please do not try to put me inside a pokeball, as I would not like that!
-  
-  </p>
-  <br>
-  <h4>My Hobbies</h4>
-  <P>Sleeping - it is all about sleeping. I guesss that sometimes eating is just as good,
-    but lets keep it simple - sleeping.
-  </P>
-
-  <br>
-  <h4>What's your favorite thing in ISE?</h4>
-  <P>Sleeping.
-  </P>
-
-  <br>
-  <h4>What are your expectations from this course?</h4>
-  <P>I want to learn how to make the best website and be the best trainer, oops, 
-    I meant web developer out there... and catch them all!!!!  
-  </P>
-
-  <br>
-  <h4>What are the difficulties you find while working on this project?</h4>
-  <P>Nothing is difficult when you can electrifie people, seriously. 
-  </P>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<h1>my photos</h1>
-    <h4>Here are some of my photos</h4> 
-    <br />
-    <img src="pic_3.jpg" width="200" height="200"/>
-    <p>This is me</p>
-    <br /> <br /><br />
-    <img src="pic_2.jpg"  width="200" height="200"/>
-    <p>When I let my mom cut my hair</p>
-    <br /> <br /><br />
-    <img src="pic_5.png" width="200" height="200" />
-    <p>Young me</p>
-    <br /> <br /><br />
-    <img src="pic_6.jpg" width="200" height="200" />
-    <p>I don't like Ash</p>
-    <br /> <br /><br />
-    <img src="pic_7.jpg" width="200" height="200" />
-    <p>I don't like him at all</p>
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="playlist" class="section">
-    <h1>My Favorite Playlist</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLxFyf9PFwQ3wvsuG01PFnkAivTOmLD8Rf" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-    <div class="fb-like" data-href="https://www.facebook.com/PikachuNumber25/" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
-<br/>
-</section>
-
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
+    <div id="background_pikachu">
+        <img src="Pikachu-Website.png" width="100%" />
 
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#photos">My Photos</a></li>
+            <li><a href="#playlist">My Playlist</a></li>
+            <li><a href="#like">Like</a></li>
+            <li><a href="#qrcoder">QR code</a></li>
+            <li><a href="#spa">Q&A</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+
+        <marquee>Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Please give me an A! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! Pikachu is Awesome! </marquee>
+
+        <section id="about" class="section">
+            <!--<h1>About Me</h1>-->
+            <br />
+            <br />
+            <div id="titleH">About Me</div>
+            <p style="font-size:20px">
+                Hello Everyone! My name is Pikachu. In this section you can pick-a-me.
+                I was adopted by Ash Ketchum back in Palls. Realizing that I am way much
+                smarter then some 10 years old I decided to leave him and go start my own
+                web-tech company, and this is what my site is all about - so welcome,
+                have fun, and please do not try to put me inside a pokeball, as I would not like that!
+
+            </p>
+            <hr>
+            <h3>My Hobbies</h3>
+            <P>
+                Sleeping - it is all about sleeping. I guesss that sometimes eating is just as good,
+                but lets keep it simple - sleeping.
+            </P>
+
+            <hr>
+            <h3>What's your favorite thing in ISE?</h3>
+            <P>
+                Sleeping.
+            </P>
+
+            <hr>
+            <h3>What are your expectations from this course?</h3>
+            <P>
+                I want to learn how to make the best website and be the best <del>trainer</del>, oops,
+                I meant web developer out there... and catch them all!!!!
+            </P>
+
+            <hr>
+            <h3>What are the difficulties you find while working on this project?</h3>
+            <P>
+                Nothing is difficult when you can electrifie people, seriously.
+            </P>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
+        </section>
+
+        <section id="photos" class="section">
+            <br />
+            <br />
+            <!-- new stuff-->
+            <div id="titleH">My Photos</div>
+            <h2>Here are some of my favorite photos</h2>
+            <br />
+            <div class="gallery">
+                <a target="_blank" href="pic_3.jpg">
+                    <img src="pic_3.jpg" alt="This is me" width="600" height="400">
+                </a>
+                <div class="desc">This is me</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="pic_2.jpg">
+                    <img src="pic_2.jpg" alt="When I let my mom cut my hair" width="600" height="400">
+                </a>
+                <div class="desc">
+                    When I let my mom cut my hair
+                </div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="pic_5.png">
+                    <img src="pic_5.png" alt="Young Me" width="600" height="400">
+                </a>
+                <div class="desc">Young Me</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="pic_6.jpg">
+                    <img src="pic_6.jpg" alt="I don't like Ash" width="600" height="400">
+                </a>
+                <div class="desc">I don't like Ash</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="pic_7.jpg">
+                    <img src="pic_7.jpg" alt="I don't like him at all" width="600" height="400">
+                </a>
+                <div class="desc">
+                    I don't like him at all
+                </div>
+            </div>
+
+
+            <!-- new stuff-->
+            <br />
+            <br />
+            <br />
+            <br />
+            <br /><br />
+
+            <!--
+            <img src="pic_3.jpg" width="200" height="200" />
+            <p>This is me</p>
+            <br /> <br /><br />
+            <img src="pic_2.jpg" width="200" height="200" />
+            <p>When I let my mom cut my hair</p>
+            <br /> <br /><br />
+            <img src="pic_5.png" width="200" height="200" />
+            <p>Young me</p>
+            <br /> <br /><br />
+            <img src="pic_6.jpg" width="200" height="200" />
+            <p>I don't like Ash</p>
+            <br /> <br /><br />
+            <img src="pic_7.jpg" width="200" height="200" />
+            <p>I don't like him at all</p>-->
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br /><br /><br /><br />
+
+        </section>
+
+        <section id="playlist" class="section">
+            <br /><br />
+            <div id="titleH">My Favorite Playlist</div>
+            <br /><br />
+            <div id="alignH"> <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLxFyf9PFwQ3wvsuG01PFnkAivTOmLD8Rf" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> </div>
+            <br />
+            <br />
+            <br />
+            <br />
+
+        </section>
+
+        <section id="like" class="section">
+            <br />
+            <br />
+            <div id="titleH">Like Me On Facebook!</div>
+            <br />
+            <br />
+            <div id="alignH"> <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fidomarko98.github.io%2FwebDevLab1%2F&width=450&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></div>
+        </section>
+
+        <section id="qrcoder" class="section">
+            <br />
+            <h1></h1>
+            <div id="titleH">Scan My Code</div>
+            <br /><br /><br />
+            <div id="alignH">
+                <a rel='nofollow' href='
+        ' border='0' style='cursor:default'><img src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fidomarko98.github.io%2FwebDevLab1%2F&chs=180x180&choe=UTF-8&chld=L|2' alt=''></a>
+            </div>
+            <br />
+            <br />
+        </section>
+
+        <section id="spa" class="section">
+            <br />
+            <br />
+            <div id="titleH">Q & A</div>
+            <br />
+            <h3>What is the differnece between Web 1, Web 2 and Web 3?</h3>
+            <p>Well, To answer that question lets explain each one of the Web versions:</p>
+            <p>
+                <u><b>Web 1:</b></u> One of the primary version of the web as we know it. In this version the web users had a limited intercation
+                between them and the website itself. Also websites barley didn't have intercation with one another. Users could not post or
+                comment feedbacks. Web 1 was a good way to let business let people know that they were out there and present information
+                about their business.
+            </p>
+            <p>
+                <u><b>Web 2:</b></u> In this version of the web users could interact with the website itself - they could comment, post and leave feedback.
+                Web 2 encourged participation, collabration and information sharing from the web user. In this web version the users
+                got introduced to website such as Facebook, Youtube and Wikipedia. Using Web 2 people could comminucate with each other
+                and share experinces from their daily life. This version is the web as most people know it. People could now also
+                search what they wanted to view using search engines. Another thing that charchertizes Web 2 is the web broswsers.
+                Companies start to create web broswesers such as Internet Explorer, Google Chrome and many more.<br />
+                In oppose to Web 1, which was considred to be an only "read" content, Web 2 is a "read-write" content.
+            </p>
+            <p>
+                <u><b>Web 3:</b></u> So what else can we ask for that wans't implemented in Web 2? Web 3 is all about interperting information
+                like human beings can. If we refred to Web 1 as "read" content and Web 2 as "read-write" content we can refer to web 3
+                as a "read-write-execute" content. We want the machine to perform on it's own - the computer will act as if it is a
+                personal assistant. The web 3 is the web version which we are using now-days.<br />
+                Lets comapre between Web 2 and Web 3 using the following table:<br />
+                <table class="paleBlueRows" style="height: 244px;" width="557">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th>Web 2</th>
+                            <th>Web 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Communication</td>
+                            <td>Interactive</td>
+                            <td>Engaged</td>
+                        </tr>
+                        <tr>
+                            <td>Information</td>
+                            <td>Dynamic</td>
+                            <td>Personal</td>
+                        </tr>
+                        <tr>
+                            <td>Focus</td>
+                            <td>Community</td>
+                            <td>Individual</td>
+                        </tr>
+                        <tr>
+                            <td>Searching</td>
+                            <td>Using keywords</td>
+                            <td>Using relevance</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br /><br />
+            </p>
+            <h3>Can you give an exmaple to show us the differnces between the web versions?</h3>
+            <p>Well, no - I am just a Pokemon... but ok, I will try my best.</p>
+            <p>
+                Lets say you want to book an appointment to your hair dresser. In <strong>Web 1 </strong>you would only have the ability
+                to view whatever your hair dresser decided to put on his website. He will probably will put up his phone number
+                in the website and you will have to phone him in order to bool your appointment - bummers. Also, You'd have need
+                to know his websites URL.
+            </p>
+            <p>
+                In <strong>Web 2</strong>, You could search "Hair dresser" and after a few site searches you'd find his website. After you'd go on his website you could view
+                his available meeting schedule and book an appointment yourself.
+            </p>
+            <p>
+                In <strong>Web 3</strong>, you will just ask your phone to make an appoitment for your hair dresser in a time
+                that is convinet for you and your phone will do it and let you know if he had done it succefully or not -
+                How amazing is that?!.
+            </p>
+            <br />
+            <br />
+            <br />
+        </section>
+
+        <section id="contact" class="section">
+            <br />
+            <br />
+            <div id="titleH">Contact Me</div>
+            <br />
+
+            <div>
+                <form  method="post" action="mailto:markoi@post.bgu.ac.il" enctype="text/plain"> <!-- onsubmit="sendMail()"-->
+                    <label for="fname">Name</label>
+                    <br />
+                    <input type="text" id="fname" name="Name: " placeholder="Your Name..">
+                    <br />
+
+                    <label for="email">E-mail </label>
+                    <br />
+                    <input type="email" id="email" placeholder="Your Email.." required width="100">
+
+                    <br />
+                    <label for="message">Message</label>
+                    <br />
+                    <input type="text" height="100" id="message" name="Message: " required placeholder="Your Message..">
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <br />
+            <br />
+        </section>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            $("#nav a").click(function (e) {
+                e.preventDefault();
+                $('html,body').scrollTo(this.hash, this.hash);
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).scroll(function () {
+            $('#menu').toggle($(this).scrollTop() > 1000)
+        });
+    </script>
+
+    <script type="text/javascript">
+        function sendMail() {
+            //window.open();
+            var email = document.getElementById(email),
+                message = document.getElementById(message);
+            /*var link = "markoi@post.bgu.ac.il"
+                + "?cc=myCCaddress@example.com"
+                + "&subject=" + escape("This is my subject")
+                + "&body=" + escape(document.getElementById('message').value)
+                ;
+
+            window.location.href = link;-->*/
+            if (!email.value) {
+                alertify.error("dasas")
+            }
+            $.ajax({
+                url: "https://formspree.io/markoi@post.bgu.ac.il",
+                method: "POST",
+                data: $(this).serialize(),
+                dataType: "json"
+            });
+            e.preventDefault()
+            $(this).get(0).reset()
+            alertify.success('Message Sent');
+        }
+    </script>
 </body>
 </html>
